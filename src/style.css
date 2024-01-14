@@ -176,7 +176,7 @@ ol li::before {
   margin-right: 8px;
 }
 
-.list-item button {
+.trash-btn {
   background-color: var(--link);
   border: 1px solid rgba(255, 255, 255, 0.38);
   border-radius: 2px;
@@ -189,7 +189,7 @@ ol li::before {
   height: 15px;
 }
 
-.list-item button img {
+.trash-icon {
   width: 11px;
 }
 
@@ -204,4 +204,25 @@ ol li::before {
   align-items: center;
   position: relative;
   top: 21.5px;
+}
+
+.add-task-btn {
+  background-color: var(--link);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -0.5px 1px 4px 0px rgba(52, 52, 52, 0.5);
+  width: 15px;
+  height: 15px;
+}
+
+.list-item input {
+  border: none;
+  border-bottom: 1px solid var(--primary);
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: 'Inder', sans-serif;
 }
