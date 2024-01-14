@@ -15,7 +15,7 @@ const setTasks = (position, task) => {
   trashBtn.appendChild(trashIcon);
 
   trashBtn.classList.add('trash-btn');
-  trashIcon.setAttribute('src', '/src/images/fi_trash-2.svg');
+  trashIcon.setAttribute('src', 'src/images/fi_trash-2.svg');
   trashIcon.setAttribute('alt', '');
   trashIcon.classList.add('trash-icon');
 
@@ -88,7 +88,7 @@ const addTask = (position, button) => {
   trashBtn.appendChild(trashIcon);
 
   trashBtn.classList.add('trash-btn');
-  trashIcon.setAttribute('src', '/src/images/fi_trash-2.svg');
+  trashIcon.setAttribute('src', 'src/images/fi_trash-2.svg');
   trashIcon.setAttribute('alt', '');
   trashIcon.classList.add('trash-icon');
 
