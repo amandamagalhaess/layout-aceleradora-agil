@@ -17,7 +17,7 @@
 
 @media (max-width: 714px) {
   html body {
-    background-image: url('/src/images/background-medium.png');
+    background-image: url('src/images/background-medium.png');
     background-size: cover !important;
   }
 
@@ -56,7 +56,7 @@
 }
 
 body {
-  background-image: url('/src/images/background-large.png');
+  background-image: url('src/images/background-large.png');
   background-size: cover;
   color: var(--text-color);
   display: flex;
